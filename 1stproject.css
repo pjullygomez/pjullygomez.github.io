@@ -162,3 +162,50 @@
         font-size: 9px;
     }
 }
+
+@media screen and (max-width:367px) {
+    .articlecontent1 {
+        padding-right: 30px;
+        height: 350px;
+    }
+    .articlecontent2 {
+        width: 100%;
+        height: 50%;
+    }
+    .articlecontent2 p {
+        font-size: 70px;
+    }
+    .articlecontent2 span {
+        font-size: 50px;
+    }
+    .socials a img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .articlecontent1 {
+        padding-right: 10px;
+        height: 350px;
+        width: 100%;
+        height: 250px;
+    }
+    .articlecontent2 {
+        width: 100%;
+        height: 50%;
+    }
+    .articlecontent2 p {
+        font-size: 35px;
+    }
+    .articlecontent2 span {
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .socials a img {
+        width: 70px;
+    }
+    .visitus,
+    .orderonline {
+        font-size: 9px;
+    }
+}
