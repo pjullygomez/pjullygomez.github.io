@@ -24,39 +24,95 @@
 }
 
 .article {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    grid-template-columns: 850px 1fr;
-    grid-template-rows: 1fr;
-    background-color: #F4EEA9;
     margin: 3rem 0;
-    max-width: 100vw;
-    height: 600px;
+    height: 650px;
+    width: 100vw;
+}
+
+.articlecontent2 {
+    text-align: center;
+    height: 100%;
+    width: 52%;
 }
 
 .articlecontent2 p {
     font-family: 'Pacifico', cursive;
     font-size: 130px;
-    text-align: center;
     color: #064635;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 .articlecontent2 span {
     color: #361500;
     font-size: 80px;
+    padding-left: 150px;
 }
 
-.image1 {
-    display: grid;
+.articlecontent1 {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    background-color: lightue;
+    gap: 25px;
+    padding-right: 100px;
+    background-image: url("article1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48%;
     height: 100%;
-    box-shadow: 0 0 15px -5px #B85C38;
 }
 
-.image1 img {
+.visitus,
+.orderonline {
+    background-color: #361500;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 2px 5px rgba(0, 0, 0, .6);
+}
+
+.visitus a,
+.orderonline a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.articlecontent2 .socials img {
+    padding: 0 20px;
+}
+
+.articlecontent2 .socials {
     text-align: center;
-    width: 100%;
-    height: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .article {
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+    }
+    .articlecontent1 {
+        order: 2;
+        background-color: #37505d;
+        width: 90%;
+        padding-right: 50px;
+        height: 400px;
+    }
+    .articlecontent2 {
+        background-color: aquane;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 20px;
+    }
+    .articlecontent2 p {
+        font-size: 85px;
+    }
+    .articlecontent2 span {
+        color: #361500;
+        font-size: 60px;
+        padding-left: 50px;
+    }
 }
