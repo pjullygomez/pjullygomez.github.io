@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="LOGO.jpg">
 
     <title>Kakaibeans</title>
 
@@ -24,58 +27,60 @@
 
     <header class="header">
         <div class="container1 align-items-center justify-content-center d-flex">
-            <a href="#" class="logo pb-3"><img src="logopng.png" alt="kakaibeanslogo" width="300px" height="300px"></a>
+            <a href="1stproject.html" class="logo pb-3"><img src="logopng.png" alt="kakaibeanslogo" width="300px" height="300px"></a>
         </div>
 
 
         <nav class="navbar container-fluid navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1"><span><i class="bi bi-list"></i></span></button>
             <div class="collapse navbar-collapse align-items-center justify-content-center " id="navbar1">
-                <a href="#" id="dropdownmenu1" class="nav-item text-decoration-none p-3 dowpdown-toggle nav-link" data-bs-toggle="dropdown">About Us</a>
+                <a href="#aboutussection" id="dropdownmenu1" class="nav-item text-decoration-none p-3 nav-link">About Us</a>
                 <div class="nav-item dropdown">
                     <a href="#" id="dropdownmenu2" class="nav-item text-decoration-none p-3 dowpdown-toggle nav-link" data-bs-toggle="dropdown">Our Promos</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item " href="# ">Latest Discounts</a>
-                        <a class="dropdown-item " href="# ">Get a membership card</a>
+                        <a class="dropdown-item " href="discountsection.html">Latest Discounts</a>
+                        <a class="dropdown-item " href="discountsection.html">Get a membership card</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
                     <a href="#" id="dropdownmenu3" class="nav-item text-decoration-none p-3 dowpdown-toggle nav-link" data-bs-toggle="dropdown">Our Menu</a>
-                    <div class="dropdown-menu bg-success">
-                        <a class="dropdown-item " href="# ">Beverages</a>
-                        <a class="dropdown-item " href="# ">Foods</a>
-                        <a class="dropdown-item " href="# ">To go products</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item " href="menu.html">Beverages</a>
+                        <a class="dropdown-item " href="menu.html">Foods</a>
+                        <a class="dropdown-item " href="menu.html">To go products</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
                     <a href="#" id="dropdownmenu4" class="nav-item text-decoration-none p-3 dowpdown-toggle nav-link" data-bs-toggle="dropdown">See Locations</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item " href="# ">Store Branches</a>
+                        <a class="dropdown-item " href="locations.html">Store Branches</a>
                         <a class="dropdown-item " href="# ">Delivery Options</a>
                     </div>
                 </div>
-                <a href="#" class="nav-item text-decoration-none p-3">Contact Us</a>
+                <a href="contact.html" class="nav-item text-decoration-none p-3">Contact Us</a>
             </div>
         </nav>
 
     </header>
 
     <article class="article">
-        <div class="articlecontent1">
-            <div class="visitus">
-                <a href="#">Visit Us</a>
-            </div>
-            <div class="orderonline">
-                <a href="#">Order Online</a>
-            </div>
 
-        </div>
         <div class="articlecontent2">
             <p>Always wake up <br><span> to a fresh brew.</span></p>
+            <div class="button">
+                <div class="visitus">
+                    <a href="locations.html">Visit Us</a>
+                </div>
+                <div class="orderonline">
+                    <a href="#">Order Online</a>
+                </div>
+            </div>
             <div class="socials">
-                <a href=""><img src="email.png" alt="emaillogo"></a>
-                <a href=""><img src="facebook.png" alt="fblogo"></a>
-                <a href=""><img src="instagram.png" alt="iglogo"></a>
+                <div class="socials">
+                    <a href="https://www.google.com/"><img src="email.png" alt="emaillogo"></a>
+                    <a href="https://www.facebook.com/"><img src="facebook.png" alt="fblogo"></a>
+                    <a href="https://www.instagram.com/"><img src="instagram.png" alt="iglogo"></a>
+                </div>
             </div>
         </div>
     </article>
@@ -88,7 +93,8 @@
         </div>
 
     </article>
-    <article class="article3">
+
+    <article class="article3" id="aboutussection">
         <div class="leftcontent">
             <h3>Partnered with Philippine's <br>Best Farmers</h3>
             <p>Ever since <span>Kakaibeans</span> started in 2019, we source our coffee beans from Philippine's best local farmers. From the Philippine Highlands in the Cordilleras and Davao Region.</p>
@@ -121,16 +127,114 @@
 
     </article>
     <article class="article6">
-        <div class="content1">
+        <div class="content content1">
             <a href=""> Check out <br>Our Menu</a>
         </div>
-        <div class="content2">
+        <div class="content content2">
             <a href="">  Book a Seat</a>
         </div>
-        <div class="content3">
+        <div class="content content3">
             <a href=""> Order Online</a>
         </div>
     </article>
+
+
+
+
+
+    <article class="article7">
+        <div class="book">
+            <input type="checkbox" id="c1">
+            <input type="checkbox" id="c2">
+            <input type="checkbox" id="c3">
+
+            <div id="bookcover">
+                <P>Check Out These Surprising Coffee Facts That Will Perk Up Your Afternoon!</P>
+            </div>
+            <div class="flip-book">
+                <div class="flip" id="p1">
+                    <div class="back">
+                        <img class="trivia2" src="trivia2.jpg">
+                        <label class="back-btn" for="c1">Back</label>
+                    </div>
+                    <div class="front">
+                        <img src="trivia1.jpg">
+                        <label class="next-btn" for="c1">Next</label>
+                    </div>
+                </div>
+                <div class="flip" id="p2">
+                    <div class="back">
+                        <img class="trivia2" src="trivia3.jpg">
+                        <label class="back-btn" for="c2">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>Coffee was discovered by a goat herder</h2>
+                        <p>It was said that coffee was discovered by a goat herder in Ethiopia in the 1500s. He saw his goats eating coffee cherries. Afterwards, he observed a change in their behavior; they gained a high amount of energy and they didn’t
+                            sleep at night. The herder shared his findings with local.</p>
+                        <label class="next-btn" for="c2">Next</label>
+                    </div>
+                </div>
+                <div class="flip" id="p3">
+                    <div class="back">
+                        <h3>Stay Tuned For More!</h3>
+                        <label class="back-btn" for="c3">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>Divorce on account of terrible coffee</h2>
+                        <p>In ancient Arab culture, apparently still applicable in Saudi Arabia, woman can allegedly find legal ‘grounds’ (get it?) for divorce if her husband fails to bring her fresh coffee in the morning.</p>
+                        <label class="next-btn" for="c3">Next</label>
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <footer>
+        <div class="linkscontent">
+            <div class="leftsidecontent">
+                <div class="section">
+                    <ul>
+                        <li>
+                            <a href="#aboutussection">
+                                <b>About Us</b>
+                            </a>
+                        </li>
+                        <li><a href="">Our Company</h2></a></li>
+                        <li><a href="">Our Products</a></li>
+                        <li><a href="">Customer Service</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <b>Home</b>
+                            </a>
+                        </li>
+                        <li><a href="">Blog</h2></a></li>
+                        <li><a href="">Partner Programs </a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightsidecontent">
+                <h3>Subscribe to our Newsletter</h3>
+                <form action="">
+                    <label for="" class="visually-hidden">
+                    email
+                </label>
+                    <input type="email" class="form-control" placeholder="Your Email">
+
+                    <br>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottomcontent">
+            <p>&copy 2022 Kakaibeans Company. All Rights Reserved</p>
+        </div>
+    </footer>
 
 
 
