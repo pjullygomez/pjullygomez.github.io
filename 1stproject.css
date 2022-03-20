@@ -380,7 +380,7 @@
              justify-content: center;
              align-items: center;
              text-decoration: none;
-             width: 150px;
+             width: 180px;
              background-color: #00303F;
              color: white;
              padding: 10px;
@@ -428,6 +428,7 @@
                  text-decoration: none;
                  background-color: #00303F;
                  color: white;
+                 width: 150px;
                  box-shadow: 2px 5px rgba(0, 0, 0, .6);
              }
          }
@@ -477,8 +478,7 @@
                  text-decoration: none;
                  background-color: #00303F;
                  color: white;
-                 padding: 10px;
-                 margin: 0 540px;
+                 width: 180px;
                  box-shadow: 2px 5px rgba(0, 0, 0, .6);
              }
          }
