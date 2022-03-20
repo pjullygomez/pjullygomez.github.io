@@ -351,7 +351,10 @@
          }
          
          .leftcontent {
+             display: flex;
+             flex-direction: column;
              justify-content: center;
+             align-items: center;
              width: 60vw;
              background-color: #F5F4F4;
              color: #00303F;
@@ -377,10 +380,10 @@
              justify-content: center;
              align-items: center;
              text-decoration: none;
+             width: 150px;
              background-color: #00303F;
              color: white;
              padding: 10px;
-             margin: 0 320px;
              box-shadow: 2px 5px rgba(0, 0, 0, .6);
          }
          
@@ -419,15 +422,12 @@
              }
              .leftcontent p {
                  text-align: center;
-                 padding: 10px 100px;
                  font-size: 20px;
              }
              .leftcontent a {
                  text-decoration: none;
                  background-color: #00303F;
                  color: white;
-                 padding: 10px;
-                 margin: 0 160px;
                  box-shadow: 2px 5px rgba(0, 0, 0, .6);
              }
          }
@@ -468,13 +468,10 @@
                  align-items: center;
                  text-align: center;
                  justify-content: center;
-                 padding: 50px;
                  font-size: 50px;
              }
              .leftcontent p {
                  text-align: center;
-                 padding: 10px 300px;
-                 font-size: 30px;
              }
              .leftcontent a {
                  text-decoration: none;
